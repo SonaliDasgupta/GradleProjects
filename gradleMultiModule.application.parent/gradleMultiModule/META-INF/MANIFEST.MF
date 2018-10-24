@@ -3,12 +3,13 @@ Bundle-ManifestVersion: 2
 Bundle-Name: GradleMultiModule Module
 Bundle-SymbolicName: gradleMultiModule
 Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: .
 Bundle-Vendor: TIBCO Software Inc.
-TIBCO-BW-ApplicationModule: META-INF/module.bwm
-TIBCO-BW-ConfigProfile: META-INF/default.substvar
 TIBCO-BW-Edition: bwe
-TIBCO-BW-JobSharedVariables: META-INF/module.jsv
+TIBCO-BW-Version: 6.5.0 V63 2018-08-08
 Require-Capability: com.tibco.bw.model; filter:="(name=bwext)",
  com.tibco.bw.palette; filter:="(name=bw.generalactivities)"
+TIBCO-BW-ApplicationModule: META-INF/module.bwm
+TIBCO-BW-ConfigProfile: META-INF/default.substvar
 TIBCO-BW-ModuleSharedVariables: META-INF/module.msv
-TIBCO-BW-Version: 6.5.0 V63 2018-08-08
+TIBCO-BW-JobSharedVariables: META-INF/module.jsv

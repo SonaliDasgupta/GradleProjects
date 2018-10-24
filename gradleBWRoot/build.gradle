@@ -1,0 +1,9 @@
+apply plugin: 'base'
+
+subprojects {
+    apply plugin: 'java' //BW gradle plugin to be specified 
+
+    repositories {
+        mavenCentral()
+    }
+}

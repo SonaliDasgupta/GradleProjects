@@ -1,7 +1,5 @@
 package helloWorld;
 
-import org.apache.log4j.Logger;
-
 import loggingservice.LoggingService;
 import messagingservice.MessagingService;
 

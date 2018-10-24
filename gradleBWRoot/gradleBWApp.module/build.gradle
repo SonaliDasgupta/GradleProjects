@@ -1,0 +1,22 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'com.tibco.bw'
+version = '1.0.0-SNAPSHOT'
+
+description = """"""
+
+sourceCompatibility = 1.5
+targetCompatibility = 1.5
+
+
+
+repositories {
+        
+     maven { url "http://repo.maven.apache.org/maven2" }
+}
+dependencies {
+    compile(group: 'com.tibco.plugins', name: 'com.tibco.bw.palette.shared', version:'6.1.100') {
+      
+    }
+}
