@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_u6hZUNBVEeiZo6Lu5vq5jw" targetNamespace="http://tns.tibco.com/bw/composite/gradleMultiModule" name="gradleMultiModule" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_vrzFQNBVEeiZo6Lu5vq5jw" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_vsC84NBVEeiZo6Lu5vq5jw" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_vsIccNBVEeiZo6Lu5vq5jw" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_vsN8ANBVEeiZo6Lu5vq5jw" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_vsUCoNBVEeiZo6Lu5vq5jw" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_vsY7INBVEeiZo6Lu5vq5jw" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_vsdMkNBVEeiZo6Lu5vq5jw" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_vsheANBVEeiZo6Lu5vq5jw" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_vsm9kNBVEeiZo6Lu5vq5jw" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="_vONKUNBVEeiZo6Lu5vq5jw" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_vOO_gNBVEeiZo6Lu5vq5jw" processName="gradlemultimodule.Process"/>
+  </sca:component>
+</sca:composite>

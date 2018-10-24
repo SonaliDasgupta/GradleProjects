@@ -1,0 +1,2 @@
+include 'gradleMultiModule'
+include 'gradleMultiModule.application'
