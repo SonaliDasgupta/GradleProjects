@@ -1,0 +1,9 @@
+
+apply plugin: 'application'
+dependencies {
+   
+	compile project(':messagingService')
+	compile project(':loggingService')
+	}
+mainClassName = 'helloWorld.HelloWorld'
+

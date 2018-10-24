@@ -1,2 +1,2 @@
 include 'gradleBWApp'
-include 'gradleBWApp.application'
+include 'gradleBWApp.module'
